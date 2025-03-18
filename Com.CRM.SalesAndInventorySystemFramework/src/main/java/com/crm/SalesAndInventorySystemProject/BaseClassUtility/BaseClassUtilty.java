@@ -60,8 +60,8 @@ public class BaseClassUtilty
 		{
 			driver=new ChromeDriver();
 		}
-		//UtilityClassObject.setDriver(driver);
-		sdriver=driver;
+		UtilityClassObject.setDriver(driver);
+		//sdriver=driver;
 		wUtil.waitForPageToLoad(driver);
 		driver.manage().window().maximize();
 		String URL= pUtil.getDataFromPropertiesFile("url");
