@@ -70,8 +70,8 @@ public class ListenerImplementationClass implements ITestListener,ISuiteListener
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		String testCaseName= result.getMethod().getMethodName();
-		//TakesScreenshot ts=(TakesScreenshot) UtilityClassObject.getDriver();
-		TakesScreenshot ts=(TakesScreenshot) BaseClassUtilty.sdriver;
+		TakesScreenshot ts=(TakesScreenshot) UtilityClassObject.getDriver();
+		//TakesScreenshot ts=(TakesScreenshot) BaseClassUtilty.sdriver;
 		
 		//extend report uses Base64 file
 		String filepath=ts.getScreenshotAs(OutputType.BASE64);

@@ -11,6 +11,7 @@
       <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateCustomerTest"/>
       <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateProductTest"/>
       <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateSupplierTest"/>
+      <class name="com.crm.SalesAndInventorySystemProject.UserModule.CreateSupplierTest"/>
   
     </classes>
   </test> <!-- Test -->
