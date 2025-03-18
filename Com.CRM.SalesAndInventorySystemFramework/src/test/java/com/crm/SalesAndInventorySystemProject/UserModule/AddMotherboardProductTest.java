@@ -18,7 +18,7 @@ public class AddMotherboardProductTest extends BaseClassUtilty
 		 * This method is used to add the motherboard product to the existing customer
 		 * @throws Exception
 		 */
-		@Test(groups = "SmokeTest")
+		@Test
 		public void addingMotherboardProduct() throws Exception
 		{
 			HomePage hp=new HomePage(driver);
@@ -55,7 +55,7 @@ public class AddMotherboardProductTest extends BaseClassUtilty
 		 * This method is used to add the Motherboard product to the newly added customer customer
 		 * @throws Exception
 		 */
-		@Test(groups = {"SmokeTest","IntegrationTest"})
+		@Test
 		public void addingMotherboardProductBySelectingNewCustomer() throws Exception
 		{
 			HomePage hp=new HomePage(driver);
