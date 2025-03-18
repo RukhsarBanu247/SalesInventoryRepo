@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5"  parallel="tests" name="Suite" >
+  <test name="Test1">
+    <classes>
+      <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateCustomerTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test3">
+    <classes>
+      <class name="com.crm.SalesAndInventorySystemProject.AdminModule.CreateSupplierTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
